@@ -1,0 +1,99 @@
+.subscription-section .container {
+  background-image: url(../img/fom-blob-graphic.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  padding: 150px 0 120px 0;
+  margin-top: 130px;
+}
+
+.subscription-section .container > p {
+  max-width: 820px;
+  padding-top: 12px;
+}
+
+.subscription-section form {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.subscription-section .fields-group {
+  display: flex;
+  padding-top: 40px;
+  gap: 16px;
+}
+
+.subscription-section .field-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.subscription-section .field-container label {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.subscription-section .field-container label::after {
+  content: '*';
+  color: var(--color-red);
+  margin-left: 4px;
+}
+
+.subscription-section .field-container input {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  background: var(--color-white);
+  outline: none;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.subscription-section .field-container input:focus {
+  outline: 2px solid var(--color-red);
+}
+
+.subscription-section .checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.subscription-section .checkbox-container label {
+  font-weight: 500;
+}
+
+.subscription-section .checkbox-container input {
+  width: 22px;
+  height: 22px;
+  accent-color: var(--color-red);
+  cursor: pointer;
+}
+
+.subscription-section form button {
+  width: max-content;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .subscription-section .fields-group {
+    flex-direction: column;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

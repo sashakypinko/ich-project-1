@@ -1,0 +1,240 @@
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-yellow: #fbdb3c;
+  --color-red: #ff3c00;
+  --color-gray: #eaeaea;
+  --color-dark: #323232;
+  --color-dark-blue: #212529;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  color: var(--color-dark-blue);
+  font-family: Inter, serif;
+}
+
+h1 {
+  font-size: 3.8rem;
+  line-height: 4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2.9rem;
+  line-height: 3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2.3rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.6em;
+  line-height: 1.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.3em;
+  line-height: 1.3rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.btn {
+  padding: 20px 40px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 800;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  color: var(--color-white);
+  background: var(--color-dark);
+}
+
+.btn-primary:hover {
+  background: #212121;
+}
+
+.btn-primary:active {
+  background: var(--color-black);
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 0 24px;
+}
+
+.gray-section {
+  background: var(--color-gray);
+}
+
+.yellow-section {
+  background: var(--color-yellow);
+}
+
+.dark-section {
+  background: var(--color-dark);
+  color: var(--color-white);
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: end;
+  background: var(--color-dark);
+}
+
+header .text-block {
+  padding: 20px 40px;
+  color: var(--color-white);
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+header .text-block-red {
+  background: var(--color-red);
+}
+
+@media screen and (max-width: 1440px) {
+  h1 {
+    font-size: 3.2rem;
+    line-height: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2.1rem;
+    line-height: 2.1rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.24rem;
+    line-height: 1.24rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+
+  h3 {
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+  }
+
+  h4 {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.16rem;
+    line-height: 1.16rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+  }
+
+  h3 {
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+
+  h5 {
+    font-size: 1.08rem;
+    line-height: 1.08rem;
+  }
+
+  header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 1.7rem;
+    line-height: 1.7rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}

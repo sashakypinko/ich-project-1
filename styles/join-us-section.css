@@ -1,0 +1,92 @@
+.join-us-section {
+  flex-direction: column;
+  align-items: center;
+}
+
+.join-us-section .container {
+  margin: 80px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.join-us-section .join-us-image {
+  max-width: 710px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.join-us-section .card {
+  display: flex;
+  background: var(--color-white);
+  box-shadow: 0 40px 60px rgba(0, 0, 0, 0.10);
+}
+
+.join-us-section .card-header {;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.join-us-section .card-header span {
+  padding: 50px;
+  font-size: 55px;
+  font-weight: 700;
+  border-right: 1px solid #EAEAEA;
+}
+
+.join-us-section .card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+  opacity: 0.4;
+}
+
+.join-us-section .card-content .title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.join-us-section .card-content .discount {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.join-us-section .card-content .expiration-date {
+  color: #8F73F0;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+}
+
+.join-us-section .card .card-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 80px;
+  background: #CCCCCC;
+}
+
+.join-us-section .card .card-action h3 {
+  color: var(--color-white);
+  font-weight: 700;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .join-us-section .card {
+    flex-direction: column;
+  }
+
+  .join-us-section .card-header span {
+    border-right: none;
+    border-bottom: 1px solid #EAEAEA;
+  }
+
+  .join-us-section .card-content {
+    align-items: center;
+  }
+}

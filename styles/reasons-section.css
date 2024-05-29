@@ -1,0 +1,78 @@
+.reasons-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 140px 0;
+}
+
+.reasons-section .container > h4 {
+  text-align: center;
+  line-height: 60px;
+}
+
+.reasons-section .cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 120px 24px;
+  margin-top: 80px;
+}
+
+.reasons-section .card {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.reasons-section .card > img {
+  width: 100%;
+}
+
+.reasons-section .card > p {
+  margin-top: 28px;
+}
+
+.reasons-section .bg-number {
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.reasons-section .bg-number-1 {
+  background-image: url(../img/number-1.svg);
+}
+
+.reasons-section .bg-number-2 {
+  background-image: url(../img/number-2.svg);
+}
+
+.reasons-section .bg-number-3 {
+  background-image: url(../img/number-3.svg);
+}
+
+@media screen and (max-width: 1024px) {
+  .reasons-section .cards-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .reasons-section .card:nth-child(3) {
+    order: 4;
+  }
+
+  .reasons-section .card:nth-child(4) {
+    order: 3;
+  }
+
+  .reasons-section .card:nth-child(5) {
+    order: 5;
+  }
+
+  .reasons-section .card:nth-child(6) {
+    order: 6;
+  }
+
+  .reasons-section .bg-number {
+    margin-top: 40px;
+  }
+}

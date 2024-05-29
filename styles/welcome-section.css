@@ -1,0 +1,30 @@
+.welcome-section {
+  background-image: url('../img/welcome-section-background.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.welcome-section .container {
+  margin: 230px 0;
+}
+
+.welcome-section h1 {
+  margin-bottom: 28px;
+}
+
+.welcome-section p {
+  padding: 12px 0;
+  max-width: 820px;
+  font-weight: 500;
+  line-height: 33px;
+}
+
+.welcome-section button {
+  margin-top: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome-section .container {
+    margin: 140px 0 220px 0;
+  }
+}

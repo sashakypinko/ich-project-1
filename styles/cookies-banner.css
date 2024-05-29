@@ -1,0 +1,79 @@
+.cookies-banner {
+  width: calc(100vw - 80px);
+  position: fixed;
+  bottom: 40px;
+  left: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px;
+  background: #fff;
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.20);
+  z-index: 1;
+  gap: 24px;
+}
+
+.cookies-banner .text-block {
+  max-width: 1024px;
+}
+
+.cookies-banner .text-block h6 {
+  color: #3C3C3C;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cookies-banner .text-block p {
+  color: #3C3C3C;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 12px;
+}
+
+.cookies-banner .button-group {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.cookies-banner .button-group a {
+  color: #324FBE;
+  font-size: 12px;
+  font-weight: 600;
+  margin-right: 18px;
+  text-wrap: nowrap;
+}
+
+.cookies-banner .button-group button {
+  padding: 14px 36px;
+  border-radius: 2px;
+  background: #324FBE;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: none;
+  text-wrap: nowrap;
+}
+
+.cookies-banner .button-group button:hover {
+  background: #2a43a4;
+}
+
+.cookies-banner .button-group button:active {
+  background: #13256b;
+}
+
+@media screen and (max-width: 768px) {
+  .cookies-banner {
+    flex-direction: column;
+  }
+
+  .cookies-banner .button-group {
+    flex-direction: column;
+  }
+
+  .cookies-banner .button-group button {
+    width: 100%;
+  }
+}

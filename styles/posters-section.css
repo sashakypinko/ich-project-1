@@ -1,0 +1,40 @@
+.posters-section .container {
+  padding: 160px 0;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 40px 80px;
+}
+
+.posters-section .card {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.posters-section .card img {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .posters-section .container {
+    grid-template-columns: 1fr;
+  }
+
+  .posters-section .card:nth-child(1) {
+    order: 2;
+  }
+
+  .posters-section .card:nth-child(2) {
+    order: 1;
+  }
+
+  .posters-section .card:nth-child(3) {
+    order: 3;
+  }
+
+  .posters-section .card:nth-child(4) {
+    order: 4;
+  }
+}
