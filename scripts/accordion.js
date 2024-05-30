@@ -5,12 +5,11 @@ const handleToggle = e => {
 
   if (accordion) {
     const content = accordion.querySelector('.accordion-content');
+    const icon = e.currentTarget.querySelector('img');
 
     if (content) {
-      content.style.maxHeight = !content.style.maxHeight || content.style.maxHeight === '0px'
-        ? `${content.scrollHeight}px`
-        : 0;
-      e.target.classList.toggle('expanded');
+      content.style.maxHeight = !content.style.maxHeight || content.style.maxHeight === '0px' ? `${content.scrollHeight}px` : 0;
+      icon.classList.toggle('expanded');
     }
   }
 };

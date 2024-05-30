@@ -21,10 +21,10 @@
   background: rgba(255, 255, 255, 0.40);
   padding: 40px;
   gap: 12px;
+  cursor: pointer;
 }
 
 .faq-section .accordion > img {
-  cursor: pointer;
   transition: transform 0.4s ease-out;
 }
 
