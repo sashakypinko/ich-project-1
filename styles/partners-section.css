@@ -5,6 +5,10 @@
   padding: 160px 0;
 }
 
+.partners-section img {
+  cursor: pointer;
+}
+
 .partners-section .container > img {
   margin-top: 80px;
 }

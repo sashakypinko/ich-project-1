@@ -39,15 +39,15 @@
 }
 
 .reasons-section .bg-number-1 {
-  background-image: url(../img/number-1.svg);
+  background-image: url('../assets/img/number-1.svg');
 }
 
 .reasons-section .bg-number-2 {
-  background-image: url(../img/number-2.svg);
+  background-image: url('../assets/img/number-2.svg');
 }
 
 .reasons-section .bg-number-3 {
-  background-image: url(../img/number-3.svg);
+  background-image: url('../assets/img/number-3.svg');
 }
 
 @media screen and (max-width: 1024px) {

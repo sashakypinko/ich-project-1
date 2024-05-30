@@ -1,7 +1,7 @@
 .cookies-banner {
   width: calc(100vw - 80px);
   position: fixed;
-  bottom: 40px;
+  bottom: 20px;
   left: 40px;
   display: flex;
   justify-content: space-between;
@@ -10,6 +10,7 @@
   box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.20);
   z-index: 1;
   gap: 24px;
+  transition: bottom 0.3s ease-in-out;
 }
 
 .cookies-banner .text-block {
